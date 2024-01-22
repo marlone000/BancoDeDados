@@ -27,3 +27,7 @@ Data Manipulation Language
 Data Definition Language
  A linguagem de definição de dados é a sub-língua responsável pela definição da forma como os dados são estruturados em um banco de dados. Em SQL, isto corresponde à manipulação de tabelas através do CREATE TABLE, ALTER TABLE, e DROP TABLE
  
+ # Trabalhando com MySQL
+
+ ## Conectando
+ mysql -h localhost -u root, -h é o host, -u é o usúario e -p vai ter que digitar senha
