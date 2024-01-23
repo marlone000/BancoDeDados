@@ -18,16 +18,28 @@ são estruturas onde ficam armazenados os dados
 são os registros 
 
 ## DCL
-Data Control Language
- A Data Control Language é a sub-língua responsável pelas tarefas administrativas de controle do próprio banco de dados, principalmente a concessão e revogação de permissões de banco de dados para os usuários. Em SQL, isto corresponde aos comandos GRANT, REVOKE, e DENY, entre outros.
+  **Data Control Language.**
+  A Data Control Language é a sub-língua responsável pelas tarefas administrativas de controle do próprio banco de dados, principalmente a concessão e revogação de permissões de banco de dados para os usuários. Em SQL, isto corresponde aos comandos GRANT, REVOKE, e DENY, entre outros.
 ## DML
-Data Manipulation Language
- A Data Manipulation Language é o sub idioma responsável pela adição, edição ou exclusão de dados de um banco de dados. Em SQL, isto corresponde ao INSERT, UPDATE, e DELETE
+ **Data Manipulation Language.**
+  A Data Manipulation Language é o sub idioma responsável pela adição, edição ou exclusão de dados de um banco de dados. Em SQL, isto corresponde ao INSERT, UPDATE, e DELETE
 ## DDL
-Data Definition Language
- A linguagem de definição de dados é a sub-língua responsável pela definição da forma como os dados são estruturados em um banco de dados. Em SQL, isto corresponde à manipulação de tabelas através do CREATE TABLE, ALTER TABLE, e DROP TABLE
+ **Data Definition Language.**
+  A linguagem de definição de dados é a sub-língua responsável pela definição da forma como os dados são estruturados em um banco de dados. Em SQL, isto corresponde à manipulação de tabelas através do CREATE TABLE, ALTER TABLE, e DROP TABLE
  
  # Trabalhando com MySQL
 
  ## Conectando
  mysql -h localhost -u root, -h é o host, -u é o usúario e -p vai ter que digitar senha
+ 
+ ## Mostra os Bancos de Dados
+  show databases;
+
+## Para excluir um Banco de Dados
+drop databases;
+
+## Para criar um Banco de dados e usa-lo
+create database (nome do banco de dados); e para usar use(nome do banco de dados);
+
+## Estrutura da tabela
+para ver se usa desc jogos;
